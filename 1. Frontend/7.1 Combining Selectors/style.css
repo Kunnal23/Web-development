@@ -1,0 +1,27 @@
+/* Write your code here: */
+
+/* Multiple Selector */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+/* Parent>child */
+.box > p {
+  color: firebrick;
+}
+
+/* Ancestor descendant */
+.box li {
+  color: blue;
+}
+
+/* Chaining method */
+li.done {
+  color: seagreen;
+}
+
+/* Combining Combiners (sounds weird😒) */
+body ul p.done{
+    font-size: 0.5rem;
+}
